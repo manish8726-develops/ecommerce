@@ -26,17 +26,7 @@ let [originalData, setOriginalData] = useState([])
     }, [filter])
    
     useEffect(() => {
-      // if (sort==='featured') {
-      //   setDataProducts(originalData)
-      // }
-      // let sortedData = dataProducts.filter((product) => {
-        
-      // if (sort === "best-selling") {
-      //   console.log(product.popular);
-      //   return product.popular === true
-      // }
-     
-        //  })
+   
        
         if (sort==='featured') {
           setDataProducts(originalData)
